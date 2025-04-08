@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <title>Formulario</title>
+    <title>Form</title>
     <style>
         input[type=number]::-webkit-inner-spin-button,
         input[type=number]::-webkit-outer-spin-button {
@@ -46,13 +46,13 @@
                                 <label for="exampleFormControlInput1" class="form-label">
                                     <h6>Card #</h6>
                                 </label>
-                                <input type="card-number" class="form-control" id="exampleFormControlInput1"
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
                                     placeholder="XXXX-XXXX-XXXX-XXXX">
                             </div>
                             <!-- CVC -->
                             <div class="col-md-3">
                                 <label for="exampleFormControlInput1" class="form-label">
-                                    <h6>CVC #</h6>
+                                    <h6>CVC</h6>
                                 </label>
                                 <input type="number" class="form-control" id="exampleFormControlInput1"
                                     placeholder="000">
@@ -109,27 +109,27 @@
                                 <p>We accept:</p>
                                 <div class="btn-group">
                                     <div class="btn btn-secondary">
-                                        <input autocomplete="off"  name="tarjeta" type="radio">
+                                        <input autocomplete="off" name="payment_method" type="radio">
                                         <i class="fa-brands fa-cc-mastercard"></i>
                                     </div>
                                     <div class="btn btn-secondary">
-                                        <input autocomplete="off"  name="tarjeta" type="radio">
+                                        <input autocomplete="off" name="payment_method" type="radio">
                                         <i class="fa-brands fa-cc-visa"></i>
                                     </div>
                                     <div class="btn btn-secondary">
-                                        <input autocomplete="off"  name="tarjeta" type="radio">
+                                        <input autocomplete="off" name="payment_method" type="radio">
                                         <i class="fa-brands fa-cc-amazon-pay"></i>
                                     </div>
                                     <div class="btn btn-secondary">
-                                        <input autocomplete="off"  name="tarjeta" type="radio">
+                                        <input autocomplete="off" name="payment_method" type="radio">
                                         <i class="fa-brands fa-cc-paypal"></i>
                                     </div>
                                 </div>
                             </div>
                             <!-- Message -->
                             <div class="col-md-6 pb-3">
-                                <label>Message:</label> 
-                                <textarea class="form-control"></textarea> 
+                                <label>Message:</label>
+                                <textarea class="form-control"></textarea>
                                 <p class="text-muted">Add any notes here.</p>
                             </div>
 
